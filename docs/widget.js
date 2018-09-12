@@ -5,6 +5,7 @@
 const AD_TAG = document.getElementsByClassName('evekatsu-ad')[0];
 const AD_WIDTH = AD_TAG.dataset.width === undefined ? "640" : AD_TAG.dataset.width;
 const AD_HEIGHT = AD_TAG.dataset.height === undefined ? "360" : AD_TAG.dataset.height;
+const AD_DOMAIN = "https://evekatsu.github.io/ad/"
 
 AD_TAG.style.display = 'none';
 
@@ -31,7 +32,7 @@ const AD_LIST = [
 const AD_FUNCTIONS = {
     "banner": function(kwargs) {
         var html = '<a href="' + kwargs["href"] + '" target="_blank">';
-        html += '<img src="' + kwargs["src"] + '" width="' + AD_WIDTH + '" />';
+        html += '<img src="' + AD_DOMAIN + kwargs["src"] + '" width="' + AD_WIDTH + '" />';
         html += '</a>';
         createIFrame(html);
     },
@@ -51,8 +52,6 @@ const createIFrame = function(widget) {
     iframe.frameBorder = 0;
     iframe.marginWidth = 0;
     iframe.marginHeight = 0;
-    iframe.width = '100%';
-    iframe.height = '180px';
     iframe.width = '100%';
     iframe.height = '100%';
     iframe.id = 'evekatsu-ad-widget';
