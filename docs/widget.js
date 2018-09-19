@@ -7,7 +7,7 @@ const AD_WIDTH = AD_TAG.dataset.width === undefined ? "640" : AD_TAG.dataset.wid
 const AD_HEIGHT = AD_TAG.dataset.height === undefined ? "360" : AD_TAG.dataset.height;
 const AD_DOMAIN = "https://evekatsu.github.io/ad/"
 
-AD_TAG.style.display = 'none';
+const ONLY_BANNER = AD_TAG.dataset.onlyBanner === undefined ? false : AD_TAG.dataset.onlyBanner.toLowerCase() === "true";
 
 const AD_LIST = [
     { "type": "banner", "src": "character/93658049.jpg", "href": "https://www.youtube.com/channel/UCsjRA_020N1meHdtVPzUYMg" },
@@ -64,7 +64,16 @@ const createIFrame = function(widget) {
     doc.close();
 };
 
-var ad = AD_LIST[Math.floor(Math.random() * AD_LIST.length)];
+AD_TAG.style.display = 'none';
+var adList = AD_LIST.filter(function(ad) {
+    if (ONLY_BANNER) {
+        return ad["type"] == "banner";
+    } else {
+        return true;
+    }
+});
+
+var ad = adList[Math.floor(Math.random() * adList.length)];
 AD_FUNCTIONS[ad["type"]](ad);
 
 })();
