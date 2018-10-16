@@ -25,8 +25,8 @@ const AD_LIST = [
     { "type": "banner", "src": "alliance/99006138.jpg", "href": "https://samuraisouldout.wordpress.com/" },
 
     { "type": "youtube", "id": "g_mkT7vk9mw" }, // Solo PVP Stream Highlights: Nosprey, Phantasm, Canes
-    { "type": "youtube", "id": "Bb93mcd20s4" },
-    { "type": "youtube", "id": "cesolDt1FI4" }
+    { "type": "youtube", "id": "Bb93mcd20s4" }, // ソロPvP　ノープロップミサイラーの戦い eve online
+    { "type": "youtube", "id": "o0ZMY7KILmg" }  // EVE online - [ SOLO PVP] Abyssal Neut Pontifex
 ];
 
 const AD_FUNCTIONS = {
