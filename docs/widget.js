@@ -14,7 +14,7 @@ const AD_LIST = [
     { "type": "banner", "src": "character/94097177.jpg", "href": "http://shel3.com/" },
     { "type": "banner", "src": "character/94570608.jpg", "href": "http://maytenth3100.hatenablog.com/" },
     { "type": "banner", "src": "character/95235307.jpg", "href": "https://twitter.com/Takuya_Gogiko/status/888991704748916738" },
-    { "type": "banner", "src": "character/95249176.jpg", "href": "https://mrandmsevejp.wixsite.com/mr-and-ms-eve-jp" },
+    { "type": "banner", "src": "character/95249176.jpg", "href": "http://eve-beautyhunter.seesaa.net/" },
     { "type": "banner", "src": "character/96224663.jpg", "href": "https://katana-masen.com/" },
 
     { "type": "banner", "src": "corporation/98217414.jpg", "href": "https://clare55.tumblr.com/" },
@@ -24,7 +24,7 @@ const AD_LIST = [
     { "type": "banner", "src": "alliance/98476559.jpg", "href": "https://blog.caladrius.info/" },
     { "type": "banner", "src": "alliance/99006138.jpg", "href": "https://samuraisouldout.wordpress.com/" },
 
-    { "type": "youtube", "id": "bIyvehdJMHs" },
+    { "type": "youtube", "id": "g_mkT7vk9mw" }, // Solo PVP Stream Highlights: Nosprey, Phantasm, Canes
     { "type": "youtube", "id": "Bb93mcd20s4" },
     { "type": "youtube", "id": "cesolDt1FI4" }
 ];
