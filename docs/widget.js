@@ -26,7 +26,7 @@ const AD_LIST = [
 
     { "type": "youtube", "id": "g_mkT7vk9mw" }, // Solo PVP Stream Highlights: Nosprey, Phantasm, Canes
     { "type": "youtube", "id": "Bb93mcd20s4" }, // ソロPvP　ノープロップミサイラーの戦い eve online
-    { "type": "youtube", "id": "o0ZMY7KILmg" }  // EVE online - [ SOLO PVP] Abyssal Neut Pontifex
+    { "type": "youtube", "id": "cesolDt1FI4" }  // EVE online - [SOLO PVP] SB Succubus
 ];
 
 const AD_FUNCTIONS = {
