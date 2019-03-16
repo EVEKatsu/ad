@@ -24,6 +24,7 @@ const AD_LIST = [
     { "type": "banner", "src": "alliance/98476559.jpg", "href": "https://blog.caladrius.info/" },
     { "type": "banner", "src": "alliance/99006138.jpg", "href": "https://samuraisouldout.wordpress.com/" },
 
+    { "type": "youtube", "id": "Bj-VfuukZWw" }, // [EVE Online]NCdot :Supers vs DNbomb
     { "type": "youtube", "id": "g_mkT7vk9mw" }, // Solo PVP Stream Highlights: Nosprey, Phantasm, Canes
     { "type": "youtube", "id": "Bb93mcd20s4" }, // ソロPvP　ノープロップミサイラーの戦い eve online
     { "type": "youtube", "id": "cesolDt1FI4" }  // EVE online - [SOLO PVP] SB Succubus
